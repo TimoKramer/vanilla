@@ -44,3 +44,5 @@ RUN set -xe; \
     /tmp/*
 
 COPY ./php.ini /usr/local/etc/php/php.ini
+
+RUN a2enmod rewrite
