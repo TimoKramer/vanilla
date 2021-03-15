@@ -15,7 +15,7 @@
 - `curl -X GET "http://localhost:8888/api/v2/users?page=1&limit=30" -H  "accept: application/json" -H "Authorization: Bearer yourpersonalaccesstoken"`
 
 ## Sample Users
-Run `colonize.sh` to create 100 random sample users.
+Run `colonize.sh yourpersonalaccesstoken` to create 100 random sample users.
 
 ## Help
 https://success.vanillaforums.com/kb/articles/41-authentication-with-personal-access-tokens
